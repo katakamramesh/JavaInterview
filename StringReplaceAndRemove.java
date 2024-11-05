@@ -7,7 +7,7 @@ import static java.util.stream.Collectors.toList;
 
 public class StringReplaceAndRemove {
     public static void main(String[] args) {
-        List<String> l = List.of("qjwe","sasd","phasgd");
+        List<String> l = List.of("qwe","sasd","phasgd");
 
         l.stream().map(x -> x.startsWith("q") ? "abc" : x);//replace abc which is starting with q
 
