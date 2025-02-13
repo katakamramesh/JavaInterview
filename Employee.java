@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -6,6 +7,23 @@ public class Employee {
     int id;
     String name;
     String address;
+
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
+
+    String dept;
+
+    public Employee(String alice, int i, LocalDate of, String engineering) {
+    }
+
+    public Employee() {
+
+    }
 
     public static void main(String[] args) {
         //compare(), custom sorting
