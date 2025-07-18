@@ -12,11 +12,11 @@ class Implementation {
     public static List<String> ll = List.of("sample1", "sample2", "sample3");
 
     public static void main(String s[]){
-        System.out.println(ll.stream().reduce((a,b) -> {
+        ll.stream().reduce((a,b) -> {
             String combined = a+b;
             System.out.println(combined);
             return combined;
-        }));
+        });
     }
 
 }
